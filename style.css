@@ -600,6 +600,11 @@
             margin-bottom: 5px;
         }
         
+        .side-bar {
+            transform: translateX(-200%);
+            transition: all ease-in-out 0.4s;
+        }
+        
         .side-bar.is-open {
             transform: translateX(0);
         }
@@ -637,4 +642,4 @@
             font-size: 12px;
             font-style: italic;
         }
-        /*end section footer/*
+        /*end section footer*/
